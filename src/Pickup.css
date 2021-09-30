@@ -1,0 +1,40 @@
+.pickup
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10%;
+}
+
+.pickup_location
+{
+    z-index: 10;
+    position: relative;
+    top: 60%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.drop_location
+{
+    z-index: 10;
+    position: relative;
+    top: 60%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.button_pickup
+{
+    z-index: 10;
+    position: relative;
+    padding: 8px;
+    border-radius: 30px;
+    top: 120%;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,81 @@
+.PickMap
+{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+   background: transparent;
+}
+
+.pick
+{
+    z-index: 10;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: forestgreen;
+    background-color: rgb(207, 207, 207);
+    
+}
+
+.details
+{
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+    background: transparent;
+    bottom: 5%;
+    border-radius: 50px;
+    
+}   
+
+.details_pick
+{
+    z-index: 10;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4px;
+}
+
+.name
+{
+    z-index: 10;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4px;
+}
+
+.address
+{
+    z-index: 10;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4px;
+}
+
+.contact_name
+{
+    z-index: 10;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4px;
+}
+
+.contacts
+{
+    z-index: 10;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4px;
+}
+
